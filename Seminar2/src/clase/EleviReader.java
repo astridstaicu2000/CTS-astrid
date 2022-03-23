@@ -8,23 +8,26 @@ import java.util.Scanner;
 
 public class EleviReader extends AplicantReader{
 
+    EleviReader(String numeFisier) throws FileNotFoundException {
+        super(numeFisier);
+    }
+
     @Override
-    public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
-        Scanner input2 = new Scanner(new File(file));
-        input2.useDelimiter(",|\n");
+    public List<Aplicant> readAplicanti() throws FileNotFoundException {
+        scanner.useDelimiter(",|\n");
         List<Aplicant> elevi = new ArrayList<>();
 
-        while (input2.hasNext()) {
+        while (scanner.hasNext()) {
             Elev elev = new Elev();
-            readAplicant(input2, elev);
-            int clasa = input2.nextInt();
-            String tutore = input2.next();
+            readAplicant(scanner, elev);
+            int clasa = scanner.nextInt();
+            String tutore = scanner.next();
             //Elev e = new Elev(nume, prenume, varsta, punctaj, nr, vect, clasa, tutore);
             elev.setClasa(clasa);
             elev.setTutore(tutore);
             elevi.add(elev);
         }
-        input2.close();
+        scanner.close();
         return elevi;
     }
 }
