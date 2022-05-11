@@ -3,14 +3,24 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CTS_seminar1.iml" filepath="$PROJECT_DIR$/CTS_seminar1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-Command/Seminar-Command.iml" filepath="$PROJECT_DIR$/Seminar-Command/Seminar-Command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-Decorator/Seminar-Decorator.iml" filepath="$PROJECT_DIR$/Seminar-Decorator/Seminar-Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-Flyweight/Seminar-Flyweight.iml" filepath="$PROJECT_DIR$/Seminar-Flyweight/Seminar-Flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar-Observer/Seminar-Observer.iml" filepath="$PROJECT_DIR$/Seminar-Observer/Seminar-Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar3-MethodFactory/Seminar3-MethodFactory.iml" filepath="$PROJECT_DIR$/Seminar3-MethodFactory/Seminar3-MethodFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar3-SimpleFactory/Seminar3-SimpleFactory.iml" filepath="$PROJECT_DIR$/Seminar3-SimpleFactory/Seminar3-SimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar3-Singleton/Seminar3-Singleton.iml" filepath="$PROJECT_DIR$/Seminar3-Singleton/Seminar3-Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar4-Builder/Seminar4-Builder.iml" filepath="$PROJECT_DIR$/Seminar4-Builder/Seminar4-Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar4-Prototype/Seminar4-Prototype.iml" filepath="$PROJECT_DIR$/Seminar4-Prototype/Seminar4-Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar5-AdapterObiecte/Seminar5-Adapter.iml" filepath="$PROJECT_DIR$/Seminar5-AdapterObiecte/Seminar5-Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar5-AdapterClase/Seminar5-AdapterClase.iml" filepath="$PROJECT_DIR$/Seminar5-AdapterClase/Seminar5-AdapterClase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar5-Composite/Seminar5-Composite.iml" filepath="$PROJECT_DIR$/Seminar5-Composite/Seminar5-Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6-Chain-of-responsabilities/Seminar6-Chain-of-responsabilities.iml" filepath="$PROJECT_DIR$/Seminar6-Chain-of-responsabilities/Seminar6-Chain-of-responsabilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar6-Template/Seminar6-Template.iml" filepath="$PROJECT_DIR$/Seminar6-Template/Seminar6-Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar7-Memento/Seminar7-Memento.iml" filepath="$PROJECT_DIR$/Seminar7-Memento/Seminar7-Memento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar7-State/Seminar7-State.iml" filepath="$PROJECT_DIR$/Seminar7-State/Seminar7-State.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Testare-sem1/Testare-sem1.iml" filepath="$PROJECT_DIR$/Testare-sem1/Testare-sem1.iml" />
     </modules>
   </component>
 </project>

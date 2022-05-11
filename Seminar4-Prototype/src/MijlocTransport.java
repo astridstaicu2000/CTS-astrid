@@ -1,6 +1,9 @@
 public abstract class MijlocTransport implements Cloneable{
     public String nrInmatriculare;
 
+    public MijlocTransport() {
+    }
+
     public String getNrInmatriculare() {
         return nrInmatriculare;
     }

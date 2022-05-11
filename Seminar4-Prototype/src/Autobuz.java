@@ -9,6 +9,13 @@ public class Autobuz extends MijlocTransport{
         this.numeSofer = numeSofer;
     }
 
+    public Autobuz(String nrInmatriculare) {
+        super(nrInmatriculare);
+    }
+
+    public Autobuz() {
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Autobuz{");
@@ -25,6 +32,8 @@ public class Autobuz extends MijlocTransport{
 
     @Override
     public MijlocTransport cloneaza() throws CloneNotSupportedException {
-        return (MijlocTransport)this.clone();
+        var autobuz = new Autobuz();
+        autobuz.numeSofer = this.numeSofer;
+        return autobuz;
     }
 }
